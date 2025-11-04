@@ -233,3 +233,27 @@ footer {
     padding: 1.5rem;
     margin-top: 2rem;
 }
+
+/* Profile Picture Styles */
+.profile-pic {
+    width: 250px;  /* You can adjust this size */
+    height: 250px; /* Make width and height the same */
+    border-radius: 50%; /* This makes it a perfect circle */
+    object-fit: cover;  /* Prevents the image from stretching */
+    margin-right: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    border: 3px solid white;
+}
+
+/* This makes the layout flexible */
+.about-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allows it to stack on small screens */
+    justify-content: center;
+}
+
+.about-text {
+    flex-basis: 60%; /* The text will take up 60% of the space */
+    min-width: 300px;
+}
